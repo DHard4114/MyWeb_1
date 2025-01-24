@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import Footer from "./Footer";
 import Unity from "../assets/Unity.jpeg";
 import Wingman from "../assets/Wingman.jpg";
-import Valo from "../assets/Valo.jpg";
+import Valo from "../assets/Valo.png";
 import Shotgun from "../assets/Shotgun.webp";
 
 const projects = [
