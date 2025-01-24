@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 import Footer from "./Footer";
+import Unity from "../assets/Unity.jpeg";
+import Wingman from "../assets/Wingman.jpg";
+import Valo from "../assets/Valo.jpg";
+import Shotgun from "../assets/Shotgun.webp";
 
 const projects = [
   {
@@ -9,7 +13,7 @@ const projects = [
     title: "Project 1",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "src/assets/Wingman.jpg",
+    image: Wingman,
     rowSpan: "row-span-2",
   },
   {
@@ -17,14 +21,14 @@ const projects = [
     title: "Project 2",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "src/assets/Unity.jpeg",
+    image: Unity,
   },
   {
     id: 3,
     title: "Project 3",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "src/assets/Shotgun.webp",
+    image: Shotgun,
     rowSpan: "row-span-2",
   },
   {
@@ -32,7 +36,7 @@ const projects = [
     title: "Project 4",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "src/assets/Valo.png",
+    image: Valo,
   },
 ];
 
